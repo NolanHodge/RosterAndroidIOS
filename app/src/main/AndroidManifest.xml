@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nolanhodge.roster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateNewTeam"
+            android:label="@string/create_team_label" />
+        <activity
+            android:name=".ViewTeams"
+            android:label="@string/view_all_team_label" />
+        <activity
+            android:name=".ViewATeam"
+            android:label="@string/view_one_team_label" />
+        <activity
+            android:name=".ViewGame"
+            android:label="@string/view_game_label" />
+        <activity
+            android:name=".Schedule"
+            android:label="@string/schedule_label" />
+        <activity android:name=".ViewATeamAsPlayer" />
+        <activity
+            android:name=".PlayerView"
+            android:label="View Player" />
+
+        <activity android:name=".CreatePlayer"
+            android:label="Create Player" />
+
+    </application>
+
+</manifest>

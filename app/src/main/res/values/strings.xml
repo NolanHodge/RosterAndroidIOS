@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Roster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nav">Nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="test_string">Test</string>
+    <string name="white_space">    </string>
+
+    <string-array name="options">
+        <item> Roster   </item>
+        <item> @string/white_space </item>
+        <item> Schedule  </item>
+        <item> Teams     </item>
+        <item> Team Chat </item>
+        <item> Create A Team </item>
+        <item> Settings    </item>
+        <item> Test </item>
+    </string-array>
+
+    <string name="title_activity_create_team">CreateTeam</string>
+    <string name="createTeamHeader">Create A Team</string>
+    <string name="createTeamName">Team Name</string>
+
+    <!--Other string resources also defined in this file… -->
+    <string name="sport1">Hockey</string>
+    <string name="sport2">Baseball</string>
+    <string name="sport3">Volleyball</string>
+    <string name="sport4">Soccer</string>
+
+
+    <string-array name="sportlist">
+        <item>@string/sport1</item>
+        <item>@string/sport2</item>
+        <item>@string/sport3</item>
+    </string-array>
+
+    <string name="create_team_label">Create Team</string>
+    <string name="view_all_team_label">All Teams</string>
+    <string name="view_one_team_label">Team</string>
+    <string name="schedule_label">Schedule</string>
+    <string name="view_game_label">Game Preview</string>
+
+    <string name="select_sport">Choose a sport</string>
+
+
+    <string name="team_description">Description..</string>
+    <string name="update_description">Send an update to your team</string>
+
+
+</resources>
